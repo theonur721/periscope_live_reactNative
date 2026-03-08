@@ -79,19 +79,27 @@ Uygulamayı çalıştırmak için kendi API key’inizi `AppDelegate.swift` dosy
 ### 🔐 Auth Akışı (iOS Simulator)
 
 Kullanıcı kayıt, giriş, çıkış işlemleri.
-![Auth Flow](./screenshots/auth.gif)
+
+<p align="center">
+<img src="./screenshots/auth.gif" width="300"/>
+</p>
 
 ---
 
 ### 📡 Canlı Yayın (Gerçek Android Cihaz)
 
-fiziksel kamera ve mikrofon ile canlı yayın test
-![Android Live](./screenshots/androidlive.gif)
+Fiziksel kamera ve mikrofon ile canlı yayın test.
+
+<p align="center">
+<img src="./screenshots/androidlive.gif" width="300"/>
+</p>
 
 ---
 
 ### 🗺️ Canlı Yayın Konumu & Harita (iOS Simulator)
 
-Yayın, konum ve hesap silme
-![Live Map](./screenshots/livemap.gif)
-# periscope_live_reactNative
+Yayın, konum ve hesap silme.
+
+<p align="center">
+<img src="./screenshots/livemap.gif" width="300"/>
+</p>
