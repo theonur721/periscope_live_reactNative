@@ -81,7 +81,7 @@ Uygulamayı çalıştırmak için kendi API key’inizi `AppDelegate.swift` dosy
 Kullanıcı kayıt, giriş, çıkış işlemleri.
 
 <p align="center">
-<img src="./screenshots/auth.gif" width="300"/>
+  <img src="./screenshots/auth.gif" width="360"/>
 </p>
 
 ---
@@ -91,7 +91,7 @@ Kullanıcı kayıt, giriş, çıkış işlemleri.
 Fiziksel kamera ve mikrofon ile canlı yayın test.
 
 <p align="center">
-<img src="./screenshots/androidlive.gif" width="300"/>
+  <img src="./screenshots/androidlive.gif" width="300"/>
 </p>
 
 ---
@@ -101,5 +101,5 @@ Fiziksel kamera ve mikrofon ile canlı yayın test.
 Yayın, konum ve hesap silme.
 
 <p align="center">
-<img src="./screenshots/livemap.gif" width="300"/>
+  <img src="./screenshots/livemap.gif" width="360"/>
 </p>
