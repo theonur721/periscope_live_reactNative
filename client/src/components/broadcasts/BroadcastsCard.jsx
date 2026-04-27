@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { Image, StyleSheet, Text, View, ImageBackground } from 'react-native';
 import Video from 'react-native-video';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { COLORS } from '../../theme/Colors';
@@ -8,35 +8,38 @@ import { normalize } from '../../utils/Normalize';
 const BroadcastsCard = ({ item, isActive }) => {
   return (
     <View style={styles.card}>
-      {/* VIDEO */}
-      <Video
-        source={{ uri: item.videoUrl }}
-        style={styles.video}
-        resizeMode="cover"
-        repeat
-        muted
-        paused={!isActive} //  sadece aktif video oynar
-        onError={e => console.log('VIDEO ERROR:', item.id, e)}
-      />
+      {isActive ? (
+        <Video
+          source={{ uri: item.videoUrl }}
+          style={styles.media}
+          resizeMode="cover"
+          repeat
+          muted
+          paused={false}
+          onError={e => console.log('VIDEO ERROR:', item.id, e)}
+        />
+      ) : (
+        <ImageBackground
+          source={{ uri: item.thumbnail }}
+          style={styles.media}
+          resizeMode="cover"
+        />
+      )}
 
-      {/* KARARTMA */}
       <View style={styles.topShade} />
       <View style={styles.bottomShade} />
 
-      {/* LIVE INFO */}
       <View style={styles.liveContainer}>
         <Text style={styles.liveText}>LIVE</Text>
         <Icon name="user" size={16} color={COLORS.white} />
         <Text style={styles.liveNumberText}>{item.viewers}</Text>
       </View>
 
-      {/* VIDEO INFO */}
       <View style={styles.infoContainer}>
         <Text style={styles.title}>{item.title}</Text>
         <Text style={styles.location}>location: {item.location}</Text>
       </View>
 
-      {/* USER INFO */}
       <View style={styles.userContainer}>
         <Text style={styles.nameText}>{item.name ?? 'Yayıncı'}</Text>
         <Image style={styles.avatar} source={{ uri: item.publisherAvatar }} />
@@ -52,9 +55,10 @@ const styles = StyleSheet.create({
     height: normalize(260),
     marginBottom: normalize(10),
     backgroundColor: COLORS.tertiary,
+    overflow: 'hidden',
   },
 
-  video: {
+  media: {
     ...StyleSheet.absoluteFillObject,
   },
 
@@ -79,6 +83,7 @@ const styles = StyleSheet.create({
   liveContainer: {
     position: 'absolute',
     top: normalize(10),
+    left: normalize(10),
     flexDirection: 'row',
     alignItems: 'center',
     gap: normalize(6),

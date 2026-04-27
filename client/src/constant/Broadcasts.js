@@ -4,6 +4,7 @@ export const BROADCASTS = [
     title: 'Kamp Ateşi Canlı',
     videoUrl:
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    thumbnail: 'https://picsum.photos/600/400?random=1',
     publisherAvatar: 'https://i.pravatar.cc/200?img=11',
     location: 'London',
     viewers: 320,
@@ -14,6 +15,7 @@ export const BROADCASTS = [
     title: 'Evden Akustik Müzik',
     videoUrl:
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+    thumbnail: 'https://picsum.photos/600/400?random=2',
     publisherAvatar: 'https://i.pravatar.cc/200?img=22',
     location: 'Rome',
     viewers: 180,
@@ -24,6 +26,7 @@ export const BROADCASTS = [
     title: 'Sokak Lezzetleri Tadımı',
     videoUrl:
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+    thumbnail: 'https://picsum.photos/600/400?random=3',
     publisherAvatar: 'https://i.pravatar.cc/200?img=33',
     location: 'Sydney',
     viewers: 412,
@@ -34,6 +37,7 @@ export const BROADCASTS = [
     title: 'Canlı Oyun Yayını',
     videoUrl:
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+    thumbnail: 'https://picsum.photos/600/400?random=4',
     publisherAvatar: 'https://i.pravatar.cc/200?img=44',
     location: 'Berlin',
     viewers: 956,
@@ -44,6 +48,7 @@ export const BROADCASTS = [
     title: 'Gün Batımı Sohbeti',
     videoUrl:
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    thumbnail: 'https://picsum.photos/600/400?random=5',
     publisherAvatar: 'https://i.pravatar.cc/200?img=55',
     location: 'Barcelona',
     viewers: 641,
@@ -54,6 +59,7 @@ export const BROADCASTS = [
     title: 'Gece Yayını',
     videoUrl:
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+    thumbnail: 'https://picsum.photos/600/400?random=6',
     publisherAvatar: 'https://i.pravatar.cc/200?img=66',
     location: 'Tokyo',
     viewers: 389,

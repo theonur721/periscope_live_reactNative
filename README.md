@@ -76,30 +76,20 @@ Uygulamayı çalıştırmak için kendi API key’inizi `AppDelegate.swift` dosy
 
 ## 📸 Screen GIF
 
-### 🔐 Auth Akışı (iOS Simulator)
+### 📡 Canlı Yayın (iOS)
 
-Kullanıcı kayıt, giriş, çıkış işlemleri.
+iOS simulatör auth ve live deneyimi.
 
 <p align="center">
-  <img src="./screenshots/auth.gif" width="520"/>
+  <img src="./screenshots/ioslive.gif" width="520"/>
 </p>
 
 ---
 
-### 📡 Canlı Yayın (Gerçek Android Cihaz)
+### 📡 Canlı Yayın (Android)
 
 Fiziksel kamera ve mikrofon ile canlı yayın test.
 
 <p align="center">
   <img src="./screenshots/androidlive.gif" width="300"/>
-</p>
-
----
-
-### 🗺️ Canlı Yayın Konumu & Harita (iOS Simulator)
-
-Yayın, konum ve hesap silme.
-
-<p align="center">
-  <img src="./screenshots/livemap.gif" width="520"/>
 </p>
