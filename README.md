@@ -81,7 +81,7 @@ Uygulamayı çalıştırmak için kendi API key’inizi `AppDelegate.swift` dosy
 iOS simulatör auth ve live deneyimi.
 
 <p align="center">
-  <img src="./screenshots/ioslive.gif" width="520"/>
+  <img src="./screenshots/ioslive.gif" width="700"/>
 </p>
 
 ---
